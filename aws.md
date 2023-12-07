@@ -42,13 +42,13 @@ aws s3 ls
 
 # Upload a file to the S3 bucket
 
-aws s3 cp mytestfile s3://mynewbucket
+aws s3 cp testfile s3://mynewbucket
 
 aws s3 cp index.html s3://mynewbucket
 
 # List contents of the S3 bucket
 
-aws s3 ls s3://mynewbucket
+aws s3 ls s3://mynewbucket54412
 
 # Delete the S3 bucket
 
